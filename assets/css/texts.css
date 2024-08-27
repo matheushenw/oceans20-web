@@ -1,0 +1,44 @@
+:root {
+    --main-white: #fefefe;
+    --main-black: #000000;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-block > p {
+    max-width: 500px;
+    font-size: 17px;
+    text-align: justify;
+    color: var(--main-gray);
+}
+
+.text-block > h2 {
+    font-size: 3rem;
+    color: #1e65a0;
+    margin-bottom: 2rem;
+}
+
+.text-block > .text_desc {
+    color: rgb(34, 34, 34);
+}
+
+@media (max-width: 768px) {
+    .text-block > p, .text-block > h2 {
+        padding: 0 10px;
+    }
+
+    .text-block > p {
+        font-size: 15px;
+    }
+
+    .text-block > h2 {
+        font-size: 2.5rem;
+    }
+}
