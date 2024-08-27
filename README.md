@@ -1,10 +1,6 @@
-﻿# Front End & Web Dev Global Solution. 
-## **<li>Matheus Henriques do Amaral - RM 556957</li>**
-
+﻿# Oceans20: Global Solution 
 
  <img src="/assets/img/video.gif">
-
- https://daisukki.github.io/global-solutions/
 
 ## Funcionalidades
 
